@@ -19,7 +19,7 @@ def main(web_url, save_file): #connect to site, open file, save file
         
         time.sleep(5)
         
-        sys.exit() #Weird Traceback error, closes fine though. 
+        sys.exit()
 
     except Exception, e: #An error occured
         print("[-]Error %s has occured.[-]") % e
